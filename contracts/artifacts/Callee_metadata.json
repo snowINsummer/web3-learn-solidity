@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Receive.sol": "Callee"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Receive.sol": {
+			"keccak256": "0x060f7b79fd85f40292a8b7cabbc49dacaf4e27ff9f68f1b2b3ac740695f35294",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c47d34cfae972d96c991acc3bfedcf33684a3375eaaa93a65857a79623f0790",
+				"dweb:/ipfs/QmYD7WYnPGCVf9mqWcrrnij3KXGXSkf9Ywp1pcR1et798h"
+			]
+		}
+	},
+	"version": 1
+}
