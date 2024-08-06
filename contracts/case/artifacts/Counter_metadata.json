@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/case/FirstApp.sol": "Counter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/case/FirstApp.sol": {
+			"keccak256": "0x74ca820cb9f991706d919c86c8bcd906072e349dc0235895591dd4265a1061c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3d7d5e2eb0cac74192c3d281afb1ec422093b8a244aaa7d0c66b952f5c35557",
+				"dweb:/ipfs/QmPjTUzDRBX9mjksRe43XD368XFTUcQGstvUpWhmMsEhYU"
+			]
+		}
+	},
+	"version": 1
+}

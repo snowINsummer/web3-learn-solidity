@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/case/Events.sol": "Events"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/case/Events.sol": {
+			"keccak256": "0x1e5329badee25dbbca4bb1f0f67b70e0220aeee759336a3c106e358b3e9e59e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://396d95d133d8cb2854dff7b77a0dc06e95e82dbb3bdd1e43240dc1ace7c5937b",
+				"dweb:/ipfs/QmTukWMxp28mtXdiVrLDAgLkbG1EiHeajqBJPoENh7VJMe"
+			]
+		}
+	},
+	"version": 1
+}

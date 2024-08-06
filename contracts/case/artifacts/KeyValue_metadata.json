@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callFuncWithKeyValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "c",
+						"type": "string"
+					}
+				],
+				"name": "someFuncWithManyInputs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/case/Function.sol": "KeyValue"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/case/Function.sol": {
+			"keccak256": "0x669fa094c5d429ca05d3ec0472410dba8fc363b11cc9f0b7597507d9765a3a38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5826042e0ef5d1896569620d38f1b4994752dab8ffcf6e91814b67544f817d2e",
+				"dweb:/ipfs/QmRWVKUSKd1iTLf8ku1HAu7Yaw7ziqqSXPGdByS9jWTc23"
+			]
+		}
+	},
+	"version": 1
+}
